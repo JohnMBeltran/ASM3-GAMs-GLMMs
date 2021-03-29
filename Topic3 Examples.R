@@ -277,7 +277,7 @@ Amodel$edf
 Amodel$df.residual
 # which is the same as
 n <- nrow(globalMeanTemp)
-n - sum(Amodel$edf) 
+n - sum(Amodel$edf)
 
 ## So conditional on the smoothing parameter estimates, we could now do a deviance goodness of fit test
 ## exactly as in GLMs (although don't need to for a Gaussian of course). The scaled deviance should be chi-sq.
